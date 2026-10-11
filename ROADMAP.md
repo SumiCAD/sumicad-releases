@@ -1,4 +1,4 @@
-# TakumiCAD roadmap / ロードマップ
+# SumiCAD (墨CAD) roadmap / ロードマップ
 
 What is planned next. Released changes are in each release's notes.
 今後の予定です。リリース済みの変更は各リリースノートをご覧ください。
@@ -25,5 +25,5 @@ What is planned next. Released changes are in each release's notes.
 - Drawing list sheet 図面リスト, 天空率, more 高度地区 presets, fire-rated window models from maker catalogues.
   図面リスト、天空率、高度地区の追加、メーカーの防火設備サッシ。
 
-Ideas and bug reports are welcome in [Issues](https://github.com/takumicad/takumicad-releases/issues).
-ご要望・不具合は [Issues](https://github.com/takumicad/takumicad-releases/issues) へお寄せください。
+Ideas and bug reports are welcome in [Issues](https://github.com/sumicad/sumicad-releases/issues).
+ご要望・不具合は [Issues](https://github.com/sumicad/sumicad-releases/issues) へお寄せください。
