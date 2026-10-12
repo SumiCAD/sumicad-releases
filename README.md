@@ -24,12 +24,31 @@
   数量・見積 — モデルから数量を拾い、見積に活用。
 - **Familiar workflow** — Archicad-style toolbox, navigator, stories, layers, pen sets; DXF / PDF output (JWW in progress).
   慣れた操作感 — Archicad 風のツールボックス・ナビゲーター・階設定・レイヤー・ペンセット。DXF / PDF 出力（JWW は準備中）。
+- **AI assistant built in** — chat inside SumiCAD with your own API key, or connect Claude Code / any MCP app and let the AI draw, check and fix the model with you.
+  AI アシスタント内蔵 — ご自身の API キーで SumiCAD 内でチャット。Claude Code などの MCP アプリからも操作でき、AI が一緒に作図・チェック・修正します。
 
 ![Floor plan with dimensions, grid and room areas](docs/images/plan-1f.png)
 
 ![Section with wall build-ups, heights and level marks](docs/images/section-aa.png)
 
 ![3D view generated from the same model](docs/images/3d-realistic.jpg)
+
+## AI assistant / AI アシスタント
+
+**Design software is changing — you can now talk to your drawings.** SumiCAD has an AI assistant built in, plus an MCP server so your favourite AI app can drive SumiCAD too. It speeds up everything: modelling, checking, counting, fixing.
+
+設計ソフトは変わりつつあります — 図面と会話できる時代です。SumiCAD は AI アシスタントを内蔵し、MCP サーバーも搭載しているので、お使いの AI アプリから SumiCAD をそのまま操作できます。モデル作り・チェック・数量拾い・修正まで、すべてが一気に速くなります。
+
+- **In-app chat** (Help › AI assistant) — bring your own API key (DeepSeek, OpenAI, Anthropic, Google, or a local model via Ollama / LM Studio). Every change appears on screen at once and is one Ctrl+Z.
+  アプリ内チャット（ヘルプ › AI アシスタント）— API キーはご自身のものを（DeepSeek、OpenAI、Anthropic、Google、Ollama / LM Studio のローカルモデルも）。変更はすぐ画面に反映され、すべて Ctrl+Z 1 回で元に戻せます。
+- **MCP / API** — Claude Code connects in one click; Codex, Gemini CLI, Cursor and VS Code (Copilot) with a copy-paste. The AI gets the same tools the app has: every element, structure checks, permit numbers, PDF / DXF output.
+  MCP / API — Claude Code はワンクリックで接続。Codex、Gemini CLI、Cursor、VS Code（Copilot）は設定を貼るだけ。AI はアプリと同じツールをすべて使えます：全要素の操作、構造チェック、確認申請の数値、PDF / DXF 出力。
+
+*"Model a 2-storey 4LDK timber house, 9.1 × 7.3 m, gable roof — check it and fix what fails."* is a real request the assistant can carry out. This is the future of design software: when the tedious drafting, counting and checking speed up this much, you stay focused on designing.
+
+「2階建て 4LDK、9.1 × 7.3 m、切妻屋根の木造住宅をモデル化して、チェックして直して」—— この一文がそのまま実際の依頼として実行できます。面倒な作図・数量拾い・チェックが速くなる分、設計者は設計に集中できます。これが設計ソフトのこれからの姿です。
+
+![The built-in AI assistant working on the open project](docs/images/ai-assistant.png)
 
 ## User guide / 使い方ガイド
 
